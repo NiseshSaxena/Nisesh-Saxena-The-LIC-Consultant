@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LIC Plans</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, sans-serif;
+        }
+        
+        nav {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            background: #003399;
+            padding: 15px 50px;
+            box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+            
+            width: 100%;
+            top: 0;
+            z-index: 1000;
+        }
+        
+        .logo img {
+            height: 50px;
+        }
+        
+        .agent-photo {
+            height: 50px;
+            width: 50px;
+            border-radius: 50%;
+            overflow: hidden;
+            transition: transform 0.3s ease;
+        }
+        .agent-photo:hover {
+            transform: scale(1.1);
+        }
+        
+        .nav-links {
+            display: flex;
+            gap: 30px;
+        }
+        
+        .nav-links a {
+            color: white;
+            text-decoration: none;
+            font-size: 18px;
+            transition: color 0.3s ease;
+        }
+        .nav-links a:hover {
+            color: yellow;
+        }
+        
+        @media (max-width: 768px) {
+            nav {
+                flex-direction: column;
+                align-items: center;
+            }
+            .nav-links {
+                margin-top: 10px;
+                gap: 15px;
+            }
+        }
+
+        .container {
+            max-width: 1000px;
+            margin: auto;
+            background: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+            text-align: center;
+            margin-top: 50px;
+        }
+        h1 {
+            color: #003399;
+            margin-bottom: 20px;
+        }
+        .plans-gallery {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            gap: 20px;
+            margin-top: 20px;
+        }
+        .plan img {
+            width: 300px;
+            border-radius: 10px;
+            box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+        }
+        @media (max-width: 768px) {
+            .plans-gallery {
+                flex-direction: column;
+                align-items: center;
+            }
+            .plan img {
+                width: 80%;
+            }
+        }
+        .footer {
+            background-color: #003399;
+            color: white;
+            text-align: center;
+            padding: 20px;
+            margin-top: 20px;
+        }
+        .footer a {
+            color: white;
+            margin: 0 10px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        .footer a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <div class="logo">
+            <img src="LIC-Logo-Vector.png" alt="LIC Logo">
+        </div>
+        <div class="nav-links">
+            <a href="index.html">About Me</a>
+            <a href="plans.html">LIC Plans</a>
+            <a href="appointment.html">Book Appointment</a>
+            <a href="gallery.html">Gallery</a>
+        </div>
+        <div class="agent-photo">
+            <img src="aboutme.jpg" alt="Agent Photo" style="width: 100%; height: 100%;">
+        </div>
+    </nav>
+    <div class="container">
+        <h1>Our LIC Plans</h1>
+        <div class="plans-gallery">
+            <div class="plan">
+                <img src="plans/1.jpg" alt="Term Insurance Plan">
+            </div>
+            <div class="plan">
+                <img src="plans/2.jpg" alt="Endowment Plan">
+            </div>
+            <div class="plan">
+                <img src="plans/3.jpg" alt="Pension Plan">
+            </div>
+            <div class="plan">
+                <img src="plans/4.jpg" alt="Child Education Plan">
+            </div>
+            <div class="plan">
+                <img src="plans/5.jpg" alt="Money Back Plan">
+            </div>
+            <div class="plan">
+                <img src="plans/6.jpg" alt="Term Insurance Plan">
+            </div>
+            <div class="plan">
+                <img src="plans/7.jpg" alt="Endowment Plan">
+            </div>
+            <div class="plan">
+                <img src="plans/WhatsApp Image 2025-02-05 at 15.18.37_79e6e8bd.jpg" alt="Pension Plan">
+            </div>
+            <div class="plan">
+                <img src="plans/WhatsApp Image 2025-02-05 at 15.18.37_7b71788d.jpg" alt="Child Education Plan">
+            </div>
+            <div class="plan">
+                <img src="plans/WhatsApp Image 2025-02-05 at 15.18.38_8c88f7ad.jpg" alt="Money Back Plan">
+            </div>
+            <div class="plan">
+                <img src="plans/WhatsApp Image 2025-02-05 at 15.18.38_a2fa0f63.jpg" alt="Term Insurance Plan">
+            </div>
+            <div class="plan">
+                <img src="plans/WhatsApp Image 2025-02-05 at 15.18.38_b2a75177.jpg" alt="Endowment Plan">
+            </div>
+            <div class="plan">
+                <img src="plans/WhatsApp Image 2025-02-05 at 15.18.39_3ee2bd9a.jpg" alt="Pension Plan">
+            </div>
+            <div class="plan">
+                <img src="plans/WhatsApp Image 2025-02-05 at 15.18.39_e3573841.jpg" alt="Child Education Plan">
+            </div>
+            <div class="plan">
+                <img src="plans/WhatsApp Image 2025-02-05 at 15.18.40_44c68565.jpg" alt="Money Back Plan">
+            </div>
+            <div class="plan">
+                <img src="plans/WhatsApp Image 2025-02-05 at 15.18.40_b4f1093f.jpg" alt="Term Insurance Plan">
+            </div>
+            <div class="plan">
+                <img src="plans/WhatsApp Image 2025-02-05 at 15.18.40_d56a313a.jpg" alt="Endowment Plan">
+            </div>
+            <div class="plan">
+                <img src="plans/WhatsApp Image 2025-02-05 at 15.18.41_f4e38581.jpg" alt="Pension Plan">
+            </div>
+            <div class="plan">
+                <img src="plans/WhatsApp Image 2025-02-05 at 15.18.42_8a8d20da.jpg" alt="Child Education Plan">
+            </div>
+            <div class="plan">
+                <img src="plans/WhatsApp Image 2025-02-05 at 15.18.42_8de71494.jpg" alt="Money Back Plan">
+            </div>
+            <div class="plan">
+                <img src="plans/WhatsApp Image 2025-02-05 at 15.18.43_e665b5f9.jpg" alt="Term Insurance Plan">
+            </div>
+            <div class="plan">
+                <img src="plans/WhatsApp Image 2025-02-05 at 15.18.44_91f70834.jpg" alt="Endowment Plan">
+            </div>
+            <div class="plan">
+                <img src="plans/WhatsApp Image 2025-02-05 at 15.18.45_14a2394e.jpg" alt="Pension Plan">
+            </div>
+            <div class="plan">
+                <img src="plans/WhatsApp Image 2025-02-05 at 15.18.45_ec861c1e.jpg" alt="Child Education Plan">
+            </div>
+            <div class="plan">
+                <img src="plans/WhatsApp Image 2025-02-05 at 15.18.46_1e99a834.jpg" alt="Money Back Plan">
+            </div>
+            <div class="plan">
+                <img src="plans/WhatsApp Image 2025-02-05 at 15.18.46_500ff036.jpg" alt="Pension Plan">
+            </div>
+            <div class="plan">
+                <img src="plans/WhatsApp Image 2025-02-05 at 15.18.47_1176d8b6.jpg" alt="Child Education Plan">
+            </div>
+            <div class="plan">
+                <img src="plans/WhatsApp Image 2025-02-05 at 15.18.47_55cd786d.jpg" alt="Money Back Plan">
+            </div>
+            <div class="plan">
+                <img src="plans/WhatsApp Image 2025-02-05 at 15.18.47_bc4a267a.jpg" alt="Term Insurance Plan">
+            </div>
+            <div class="plan">
+                <img src="plans/WhatsApp Image 2025-02-05 at 15.18.48_62d170d7.jpg" alt="Endowment Plan">
+            </div>
+            <div class="plan">
+                <img src="plans/WhatsApp Image 2025-02-05 at 15.18.48_a3782e77.jpg" alt="Pension Plan">
+            </div>
+            <div class="plan">
+                <img src="plans/WhatsApp Image 2025-02-05 at 15.18.49_2dbc7d67.jpg" alt="Child Education Plan">
+            </div>
+            <div class="plan">
+                <img src="plans/WhatsApp Image 2025-02-05 at 15.18.48_a3782e77.jpg" alt="Money Back Plan">
+            </div>
+        </div>
+    </div>
+    <footer class="footer">
+        <p>Follow us on:</p>
+        <a href="https://www.instagram.com/" target="_blank">Instagram</a>
+        <a href="https://www.facebook.com/" target="_blank">Facebook</a>
+        <p>Contact: +91-9838677647 | Email: niseshsaxena@gmail.com</p>
+        <p>&copy; 2025 LIC Agent. All Rights Reserved.</p>
+    </footer>
+
+</body>
+</html>
